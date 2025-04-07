@@ -9,10 +9,8 @@ This project demonstrates the development of an **embedded system** that functio
 
 ### **Features**
 - **Real-Time Weather Fetching**: The device can fetch real-time weather data to help users plan for outdoor activities in any environment.
-- **Health Monitoring**: Provides vital health statistics and real-time health updates.
 - **Real-Time Clock (RTC)**: Keeps track of the time, much like the PIPBoy from the *Fallout* universe.
 - **Audio Output**: Plays ambient audio, music, and news to keep the wearer informed.
-- **Location Tracking**: Integrates GPS data for location tracking and mapping features.
 
 ---
 
