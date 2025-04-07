@@ -1,0 +1,63 @@
+Dependencies for Project 'PA5', Target 'PA5ESP8266': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\startup.s)(0x67439DD4)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --pd "__MICROLIB SETA 1" --diag_suppress=A1950W-I.\RTE\_PA5ESP8266-IC:\Users\Backup-Admin\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\Backup-Admin\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 540"--pd "TM4C123GH6PM SETA 1"--pd "_RTE_ SETA 1"--list .\startup.lst--xref -o .\startup.o--depend .\startup.d)
+F (.\main.c)(0x67449689)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../.. --std=c99-I./RTE/_PA5ESP8266-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM-o ./main.o -MMD)
+I (tm4c123gh6pm.h)(0x67439DD4)
+I (pll.h)(0x67439DD4)
+I (UART.h)(0x6743A3F1)
+I (ST7735.h)(0x67439DD4)
+I (esp8266.h)(0x67439DD2)
+I (LED.h)(0x674494D7)
+I (weather.h)(0x67439DD4)
+I (Sound.h)(0x674492E5)
+I (RTC.h)(0x67439DD4)
+I (Timer.h)(0x6743BE35)
+I (PortF.h)(0x67439E94)
+F (.\pll.c)(0x67439DD3)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../.. --std=c99-I./RTE/_PA5ESP8266-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM-o ./pll.o -MMD)
+I (tm4c123gh6pm.h)(0x67439DD4)
+F (.\esp8266.c)(0x67448EA9)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../.. --std=c99-I./RTE/_PA5ESP8266-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM-o ./esp8266.o -MMD)
+I (tm4c123gh6pm.h)(0x67439DD4)
+I (esp8266.h)(0x67439DD2)
+I (UART.h)(0x6743A3F1)
+F (.\LED.c)(0x67449673)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../.. --std=c99-I./RTE/_PA5ESP8266-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM-o ./led.o -MMD)
+I (LED.h)(0x674494D7)
+I (ST7735.h)(0x67439DD4)
+I (Sound.h)(0x674492E5)
+I (tm4c123gh6pm.h)(0x67439DD4)
+F (.\ST7735.c)(0x67439DD4)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../.. --std=c99-I./RTE/_PA5ESP8266-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM-o ./st7735.o -MMD)
+I (ST7735.h)(0x67439DD4)
+I (tm4c123gh6pm.h)(0x67439DD4)
+F (.\UART.c)(0x67439DD4)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../.. --std=c99-I./RTE/_PA5ESP8266-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM-o ./uart.o -MMD)
+I (tm4c123gh6pm.h)(0x67439DD4)
+I (FIFO.h)(0x67439DD3)
+I (UART.h)(0x6743A3F1)
+F (.\Sound.c)(0x674496E0)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../.. --std=c99-I./RTE/_PA5ESP8266-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM-o ./sound.o -MMD)
+I (Sound.h)(0x674492E5)
+I (LED.h)(0x674494D7)
+I (UART.h)(0x6743A3F1)
+I (Timer.h)(0x6743BE35)
+I (tm4c123gh6pm.h)(0x67439DD4)
+I (PortF.h)(0x67439E94)
+F (.\weather.c)(0x6743EA3C)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../.. --std=c99-I./RTE/_PA5ESP8266-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM-o ./weather.o -MMD)
+I (tm4c123gh6pm.h)(0x67439DD4)
+I (pll.h)(0x67439DD4)
+I (UART.h)(0x6743A3F1)
+I (ST7735.h)(0x67439DD4)
+I (esp8266.h)(0x67439DD2)
+I (LED.h)(0x674494D7)
+F (.\Timer.c)(0x67439DD4)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../.. --std=c99-I./RTE/_PA5ESP8266-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM-o ./timer.o -MMD)
+I (tm4c123gh6pm.h)(0x67439DD4)
+I (Timer.h)(0x6743BE35)
+I (LED.h)(0x674494D7)
+I (UART.h)(0x6743A3F1)
+I (Sound.h)(0x674492E5)
+F (.\RTC.c)(0x6743EBB4)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../.. --std=c99-I./RTE/_PA5ESP8266-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM-o ./rtc.o -MMD)
+I (RTC.h)(0x67439DD4)
+I (tm4c123gh6pm.h)(0x67439DD4)
+I (ST7735.h)(0x67439DD4)
+F (.\PortF.c)(0x67439E85)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../.. --std=c99-I./RTE/_PA5ESP8266-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM-o ./portf.o -MMD)
+I (PortF.h)(0x67439E94)
+I (tm4c123gh6pm.h)(0x67439DD4)
+F (.\IO.c)(0x6743C08C)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I .. -I ../../.. --std=c99-I./RTE/_PA5ESP8266-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Backup-Admin/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_ -Drvmdk -DPART_TM4C123GH6PM-o ./io.o -MMD)
+I (IO.h)(0x6743A045)
+I (tm4c123gh6pm.h)(0x67439DD4)
